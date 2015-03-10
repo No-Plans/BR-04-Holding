@@ -1,0 +1,78 @@
+@import url("http://fast.fonts.net/lt/1.css?apiType=css&c=e7684d36-5e12-42d8-a15f-be0b7dd92f3b&fontids=709724,709721,709727,709730");
+@font-face{
+font-family:"Ehrhardt W01 Roman";
+src:url("Fonts/709724/e9e79065-1653-45d9-8e64-b9a27f269789.eot?#iefix");
+src:url("Fonts/709724/e9e79065-1653-45d9-8e64-b9a27f269789.eot?#iefix") format("eot"),url("Fonts/709724/06b9ad8d-b363-4b39-9973-a5be2888fdf0.woff") format("woff"),url("Fonts/709724/7d6311c8-08cc-45b1-978e-1020465abce2.ttf") format("truetype"),url("Fonts/709724/ab404369-4b3f-4afb-bc82-1a02a03fe381.svg#ab404369-4b3f-4afb-bc82-1a02a03fe381") format("svg");
+}
+@font-face{
+font-family:"Ehrhardt W01 Italic";
+src:url("Fonts/709721/a913c213-e8ca-4b79-b289-36e578dd9784.eot?#iefix");
+src:url("Fonts/709721/a913c213-e8ca-4b79-b289-36e578dd9784.eot?#iefix") format("eot"),url("Fonts/709721/0660f3bf-2264-494a-9c33-91a32ea584df.woff") format("woff"),url("Fonts/709721/ea6e154a-b5ef-483f-964b-5f18573bab68.ttf") format("truetype"),url("Fonts/709721/b421acc6-00a6-42c1-8a48-966c75693349.svg#b421acc6-00a6-42c1-8a48-966c75693349") format("svg");
+}
+@font-face{
+font-family:"Ehrhardt W01 Semibold";
+src:url("Fonts/709727/7a8c4e36-f03e-4f73-b1b8-668059dd09f1.eot?#iefix");
+src:url("Fonts/709727/7a8c4e36-f03e-4f73-b1b8-668059dd09f1.eot?#iefix") format("eot"),url("Fonts/709727/aa679008-f8ef-4934-bb09-3dfa6e8ab565.woff") format("woff"),url("Fonts/709727/b6e91816-bf09-4174-8a6b-03c888825e91.ttf") format("truetype"),url("Fonts/709727/0421fa0d-b0c1-41d1-b234-36d77435bf06.svg#0421fa0d-b0c1-41d1-b234-36d77435bf06") format("svg");
+}
+@font-face{
+font-family:"EhrhardtW01-SemiboldIta";
+src:url("Fonts/709730/7c83ff3b-5dde-4623-8dcf-22ba0f22d0ad.eot?#iefix");
+src:url("Fonts/709730/7c83ff3b-5dde-4623-8dcf-22ba0f22d0ad.eot?#iefix") format("eot"),url("Fonts/709730/5c763734-c899-40b7-9545-5cc5b6f752c0.woff") format("woff"),url("Fonts/709730/90147190-b0d1-4999-9e31-b32ed8bece0d.ttf") format("truetype"),url("Fonts/709730/e5dd6697-1a52-4b52-bb8b-09808869ec3c.svg#e5dd6697-1a52-4b52-bb8b-09808869ec3c") format("svg");
+}
+
+
+
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+
+html, body{
+	text-align: center;
+	color: #1b1e46;
+	font-family:'Ehrhardt W01 Roman';
+	font-size: 16px;
+	line-height: 1.4em;
+}
+
+.logo {
+	width: 380px;
+	margin-top: 9em;
+	margin-bottom: 2.25em;
+}
+
+address {
+	font-style: normal;
+}
+
+a {
+	color: #9d9895;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #dcdbd9;
+}
+
+.social {
+	margin-top: 2em;
+}
+
+.social a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+.pinterest {
+	background: transparent url('../img/pinterest.jpg') center center no-repeat;
+}
+
+.twitter {
+	background: transparent url('../img/twitter.jpg') center center no-repeat;
+}
+.facebook {
+	background: transparent url('../img/facebook.jpg') center center no-repeat;
+}
